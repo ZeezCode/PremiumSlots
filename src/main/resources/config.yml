@@ -1,0 +1,7 @@
+#Premium slots amount: (Last X slots are reserved for players with the defined permission)
+#ex: If there are 10 slots and you set 2 premium slots, 8 players can join freely but the last 2 need the permission to join
+premium_slots: 2
+
+#Denied access message: (Shown when player is denied access to server b/c premium slots enabled and player doesn't have required permission)
+#Variables: %NEWLINE%, %NAME%
+denied_access_message: 'Hey, %NAME%! The server is currently in Premium Slots mode!%NEWLINE%The last two slots can only be used by premium members - you can become a premium member by going to our store!'

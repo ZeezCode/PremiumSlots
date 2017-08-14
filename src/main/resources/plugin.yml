@@ -1,0 +1,12 @@
+name: PremiumSlots
+version: ${project.version}
+main: net.craftmountain.premiumslots.PremiumSlots
+depend: [Vault]
+authors: [Zee]
+description: A simple plugin for adding premium slots to your server
+website: CraftMountain.net
+
+permissions:
+  ps.bypass:
+    description: Allows player to bypass premium slot mode
+    default: op
