@@ -6,7 +6,16 @@ authors: [Zee]
 description: A simple plugin for adding premium slots to your server
 website: CraftMountain.net
 
+commands:
+  premiumslots:
+    description: Base command for PremiumSlots+ plugin
+    permission: ps.admin
+    aliases: [ps]
+
 permissions:
   ps.bypass:
     description: Allows player to bypass premium slot mode
+    default: op
+  ps.admin:
+    description: Allows player access to PremiumSlots commands
     default: op

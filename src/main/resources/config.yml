@@ -4,4 +4,8 @@ premium_slots: 2
 
 #Denied access message: (Shown when player is denied access to server b/c premium slots enabled and player doesn't have required permission)
 #Variables: %NEWLINE%, %NAME%
-denied_access_message: 'Hey, %NAME%! The server is currently in Premium Slots mode!%NEWLINE%The last two slots can only be used by premium members - you can become a premium member by going to our store!'
+#Supports color codes!
+denied_access_message: '&aHey, %NAME%! The server is currently in Premium Slots mode!%NEWLINE%The last two slots can only be used by premium members - you can become a premium member by going to our store!'
+
+#Whether or not plugin should enforce premium slots. If false, anyone can join regardless of having the ps.bypass permission node
+enabled: true
